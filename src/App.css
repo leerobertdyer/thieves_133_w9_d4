@@ -1,0 +1,79 @@
+.mainAppDiv {
+    height: fit-content;
+    width: 80vw;
+    border: orange solid 3px;
+    border-radius: 6px;
+    min-height: 400px;
+    min-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background-color: #fff;
+    background-image:
+        linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+        linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+    
+    padding: 20px 110px;
+}
+
+li {
+    list-style: none;
+}
+
+.thingList {
+    background-color: antiquewhite;
+    color: black;
+    padding: 20px;
+    font-size: 4vw;
+    border-radius: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+.thingList:hover {
+    cursor: pointer;
+}
+
+.crossed {
+    background-color: lightgreen;
+    text-decoration: line-through;
+}
+
+.addThing {
+    padding: 5px;
+    width: 30%;
+}
+
+.submit {
+    padding: 5px;
+    color: gold;
+    border: white solid 1px;
+}
+
+
+.thingAndTrash {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
